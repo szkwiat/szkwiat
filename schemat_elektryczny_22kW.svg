@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100" font-family="Arial, sans-serif">
+
+  <!-- Tło -->
+  <rect width="900" height="1100" fill="#f8f9fa"/>
+
+  <!-- Ramka i tytuł -->
+  <rect x="10" y="10" width="880" height="1080" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="10" y="10" width="880" height="60" fill="#1a3a5c"/>
+  <text x="450" y="38" text-anchor="middle" fill="white" font-size="14" font-weight="bold">SCHEMAT INSTALACJI ELEKTRYCZNEJ</text>
+  <text x="450" y="58" text-anchor="middle" fill="white" font-size="12">Sposób podłączenia od miejsca rozgraniczenia własności z PGE Dystrybucja – moc przyłączeniowa 22 kW</text>
+
+  <!-- ===== SEKCJA 1: SIEĆ PGE ===== -->
+  <rect x="30" y="85" width="840" height="80" rx="4" fill="#e8f0fe" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text x="450" y="108" text-anchor="middle" fill="#1a3a5c" font-size="11" font-weight="bold">SIEĆ ELEKTROENERGETYCZNA PGE DYSTRYBUCJA S.A.</text>
+  <text x="450" y="125" text-anchor="middle" fill="#333" font-size="10">Napięcie znamionowe: 230/400 V   |   Częstotliwość: 50 Hz   |   Układ sieci: TN-C</text>
+  <text x="450" y="142" text-anchor="middle" fill="#333" font-size="10">Linia kablowa / napowietrzna (własność PGE Dystrybucja)</text>
+
+  <!-- Strzałka w dół od sieci -->
+  <line x1="450" y1="165" x2="450" y2="190" stroke="#333" stroke-width="2"/>
+  <polygon points="450,195 444,183 456,183" fill="#333"/>
+
+  <!-- ===== ZŁĄCZE KABLOWE ===== -->
+  <!-- Linia rozgraniczenia własności -->
+  <line x1="30" y1="200" x2="870" y2="200" stroke="#c0392b" stroke-width="2" stroke-dasharray="10,5"/>
+  <rect x="640" y="193" width="210" height="16" fill="#f8f9fa"/>
+  <text x="745" y="205" text-anchor="middle" fill="#c0392b" font-size="10" font-weight="bold">─── MIEJSCE ROZGRANICZENIA WŁASNOŚCI ───</text>
+
+  <rect x="310" y="210" width="280" height="100" rx="6" fill="#fff3cd" stroke="#e6a817" stroke-width="2"/>
+  <text x="450" y="232" text-anchor="middle" fill="#7d4e00" font-size="11" font-weight="bold">ZŁĄCZE KABLOWE (ZK)</text>
+  <text x="450" y="250" text-anchor="middle" fill="#333" font-size="10">Typ: ZK 3×(1×35 mm²) + PEN 1×35 mm²</text>
+  <text x="450" y="267" text-anchor="middle" fill="#333" font-size="10">Obudowa: IP44, szczelna, plombowana</text>
+  <text x="450" y="284" text-anchor="middle" fill="#333" font-size="10">Lokalizacja: skrzynka na granicy działki / elewacji</text>
+  <text x="450" y="299" text-anchor="middle" fill="#7d4e00" font-size="9" font-weight="bold">▲ WŁASNOŚĆ PGE DYSTRYBUCJA ▲</text>
+
+  <!-- Bezpieczniki w złączu -->
+  <rect x="350" y="305" width="200" height="28" rx="3" fill="#fff" stroke="#999" stroke-width="1"/>
+  <text x="450" y="323" text-anchor="middle" fill="#333" font-size="9">Wkładki bezpiecznikowe: 3× gG 63 A</text>
+
+  <!-- Strzałka w dół -->
+  <line x1="450" y1="333" x2="450" y2="358" stroke="#333" stroke-width="2"/>
+  <polygon points="450,363 444,351 456,351" fill="#333"/>
+
+  <!-- ===== WEWNĘTRZNA LINIA ZASILAJĄCA ===== -->
+  <rect x="250" y="363" width="400" height="65" rx="5" fill="#fff" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text x="450" y="383" text-anchor="middle" fill="#1a3a5c" font-size="10" font-weight="bold">WEWNĘTRZNA LINIA ZASILAJĄCA (WLZ)</text>
+  <text x="450" y="400" text-anchor="middle" fill="#333" font-size="10">Kabel: YKY 5×10 mm² (Cu) lub YAKXS 5×16 mm²</text>
+  <text x="450" y="416" text-anchor="middle" fill="#333" font-size="10">Układanie: w rurze ochronnej / kanale kablowym</text>
+
+  <!-- Strzałka w dół -->
+  <line x1="450" y1="428" x2="450" y2="453" stroke="#333" stroke-width="2"/>
+  <polygon points="450,458 444,446 456,446" fill="#333"/>
+
+  <!-- ===== UKŁAD POMIAROWY ===== -->
+  <rect x="230" y="458" width="440" height="115" rx="6" fill="#e8f8e8" stroke="#27ae60" stroke-width="2"/>
+  <text x="450" y="480" text-anchor="middle" fill="#145a32" font-size="11" font-weight="bold">UKŁAD POMIAROWO-ROZLICZENIOWY</text>
+  <text x="450" y="498" text-anchor="middle" fill="#145a32" font-size="10">(własność PGE Dystrybucja – plombowany)</text>
+
+  <!-- Licznik -->
+  <rect x="330" y="505" width="240" height="50" rx="4" fill="#fff" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="450" y="525" text-anchor="middle" fill="#333" font-size="10" font-weight="bold">LICZNIK ENERGII ELEKTRYCZNEJ</text>
+  <text x="450" y="543" text-anchor="middle" fill="#333" font-size="9">3-fazowy, 4-przewodowy, taryfa C11/G11</text>
+  <text x="450" y="557" text-anchor="middle" fill="#333" font-size="9">Imax = 100 A, klasa dokładności 1</text>
+
+  <!-- Strzałka w dół -->
+  <line x1="450" y1="573" x2="450" y2="598" stroke="#333" stroke-width="2"/>
+  <polygon points="450,603 444,591 456,591" fill="#333"/>
+
+  <!-- ===== GŁÓWNY WYŁĄCZNIK PRĄDU ===== -->
+  <rect x="290" y="603" width="320" height="75" rx="5" fill="#fce4ec" stroke="#c62828" stroke-width="2"/>
+  <text x="450" y="625" text-anchor="middle" fill="#7b1919" font-size="11" font-weight="bold">GŁÓWNY WYŁĄCZNIK PRĄDU (GWP)</text>
+  <text x="450" y="645" text-anchor="middle" fill="#333" font-size="10">Wyłącznik nadmiarowo-prądowy 4P B63A</text>
+  <text x="450" y="662" text-anchor="middle" fill="#333" font-size="10">Icc ≥ 6 kA  |  Zamek na klucz lub plomba</text>
+  <text x="450" y="675" text-anchor="middle" fill="#7b1919" font-size="9">Dostępny bez demontażu – wymaganie PGE</text>
+
+  <!-- Strzałka w dół -->
+  <line x1="450" y1="678" x2="450" y2="703" stroke="#333" stroke-width="2"/>
+  <polygon points="450,708 444,696 456,696" fill="#333"/>
+
+  <!-- ===== ROZDZIELNIA GŁÓWNA ===== -->
+  <rect x="200" y="708" width="500" height="150" rx="6" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2"/>
+  <text x="450" y="730" text-anchor="middle" fill="#4a148c" font-size="11" font-weight="bold">ROZDZIELNIA GŁÓWNA (RG) – OBIEKT ODBIORCY</text>
+
+  <!-- Szyna PE/N -->
+  <rect x="220" y="738" width="460" height="18" rx="2" fill="#fff" stroke="#888" stroke-width="1"/>
+  <text x="450" y="751" text-anchor="middle" fill="#333" font-size="9">Szyna PE (żółto-zielona) + Szyna N (niebieska)  |  Uziemienie: Ruz ≤ 5 Ω</text>
+
+  <!-- Obwody -->
+  <text x="450" y="775" text-anchor="middle" fill="#4a148c" font-size="10" font-weight="bold">Zabezpieczenia obwodów odbiorczych:</text>
+
+  <!-- 5 obwodów -->
+  <rect x="220" y="782" width="85" height="55" rx="3" fill="#fff" stroke="#999" stroke-width="1"/>
+  <text x="262" y="800" text-anchor="middle" fill="#333" font-size="8">Gniazda</text>
+  <text x="262" y="813" text-anchor="middle" fill="#333" font-size="8">B16A 2P</text>
+  <text x="262" y="826" text-anchor="middle" fill="#333" font-size="8">RCD 30mA</text>
+
+  <rect x="316" y="782" width="85" height="55" rx="3" fill="#fff" stroke="#999" stroke-width="1"/>
+  <text x="358" y="800" text-anchor="middle" fill="#333" font-size="8">Oświetlenie</text>
+  <text x="358" y="813" text-anchor="middle" fill="#333" font-size="8">B10A 2P</text>
+  <text x="358" y="826" text-anchor="middle" fill="#333" font-size="8">RCD 30mA</text>
+
+  <rect x="413" y="782" width="85" height="55" rx="3" fill="#fff" stroke="#999" stroke-width="1"/>
+  <text x="455" y="800" text-anchor="middle" fill="#333" font-size="8">Klimatyzacja</text>
+  <text x="455" y="813" text-anchor="middle" fill="#333" font-size="8">B20A 3P</text>
+  <text x="455" y="826" text-anchor="middle" fill="#333" font-size="8">RCD 30mA</text>
+
+  <rect x="510" y="782" width="85" height="55" rx="3" fill="#fff" stroke="#999" stroke-width="1"/>
+  <text x="552" y="800" text-anchor="middle" fill="#333" font-size="8">Kuchenka</text>
+  <text x="552" y="813" text-anchor="middle" fill="#333" font-size="8">B32A 3P</text>
+  <text x="552" y="826" text-anchor="middle" fill="#333" font-size="8">RCD 30mA</text>
+
+  <rect x="607" y="782" width="85" height="55" rx="3" fill="#fff" stroke="#999" stroke-width="1"/>
+  <text x="649" y="800" text-anchor="middle" fill="#333" font-size="8">Ładow. EV</text>
+  <text x="649" y="813" text-anchor="middle" fill="#333" font-size="8">B32A 3P</text>
+  <text x="649" y="826" text-anchor="middle" fill="#333" font-size="8">RCD 30mA</text>
+
+  <text x="450" y="852" text-anchor="middle" fill="#4a148c" font-size="9">Moc przyłączeniowa: 22 kW (3×400V, cos φ = 1) → Imax = 32 A / fazę</text>
+
+  <!-- ===== TABELA PARAMETRÓW ===== -->
+  <rect x="30" y="875" width="840" height="165" rx="5" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="450" y="896" text-anchor="middle" fill="#1a3a5c" font-size="11" font-weight="bold">ZESTAWIENIE PARAMETRÓW TECHNICZNYCH</text>
+
+  <!-- Nagłówki tabeli -->
+  <line x1="30" y1="902" x2="870" y2="902" stroke="#333" stroke-width="1"/>
+  <rect x="30" y="902" width="840" height="20" fill="#1a3a5c"/>
+  <text x="140" y="916" text-anchor="middle" fill="white" font-size="9" font-weight="bold">PARAMETR</text>
+  <text x="430" y="916" text-anchor="middle" fill="white" font-size="9" font-weight="bold">WARTOŚĆ / OPIS</text>
+  <text x="750" y="916" text-anchor="middle" fill="white" font-size="9" font-weight="bold">NORMA / UWAGA</text>
+  <line x1="270" y1="902" x2="270" y2="1040" stroke="#ccc" stroke-width="1"/>
+  <line x1="600" y1="902" x2="600" y2="1040" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Wiersze -->
+  <line x1="30" y1="922" x2="870" y2="922" stroke="#eee" stroke-width="1"/>
+  <text x="140" y="935" text-anchor="middle" fill="#333" font-size="9">Moc przyłączeniowa</text>
+  <text x="430" y="935" text-anchor="middle" fill="#333" font-size="9">22 kW (trójfazowa)</text>
+  <text x="750" y="935" text-anchor="middle" fill="#555" font-size="9">Warunki przyłączenia PGE</text>
+
+  <line x1="30" y1="940" x2="870" y2="940" stroke="#eee" stroke-width="1"/>
+  <text x="140" y="953" text-anchor="middle" fill="#333" font-size="9">Napięcie zasilania</text>
+  <text x="430" y="953" text-anchor="middle" fill="#333" font-size="9">3×400/230 V (+10%/-15%)</text>
+  <text x="750" y="953" text-anchor="middle" fill="#555" font-size="9">PN-EN 50160</text>
+
+  <line x1="30" y1="958" x2="870" y2="958" stroke="#eee" stroke-width="1"/>
+  <text x="140" y="971" text-anchor="middle" fill="#333" font-size="9">Prąd znamionowy</text>
+  <text x="430" y="971" text-anchor="middle" fill="#333" font-size="9">32 A / fazę (GWP B63A z rezerwą)</text>
+  <text x="750" y="971" text-anchor="middle" fill="#555" font-size="9">P = √3 × U × I × cosφ</text>
+
+  <line x1="30" y1="976" x2="870" y2="976" stroke="#eee" stroke-width="1"/>
+  <text x="140" y="989" text-anchor="middle" fill="#333" font-size="9">Układ sieci</text>
+  <text x="430" y="989" text-anchor="middle" fill="#333" font-size="9">TN-C (do złącza) → TN-S (w obiekcie)</text>
+  <text x="750" y="989" text-anchor="middle" fill="#555" font-size="9">PN-IEC 60364</text>
+
+  <line x1="30" y1="994" x2="870" y2="994" stroke="#eee" stroke-width="1"/>
+  <text x="140" y="1007" text-anchor="middle" fill="#333" font-size="9">Przekrój WLZ</text>
+  <text x="430" y="1007" text-anchor="middle" fill="#333" font-size="9">YKY 5×10 mm² Cu (min. dla I=32A)</text>
+  <text x="750" y="1007" text-anchor="middle" fill="#555" font-size="9">PN-HD 60364-5-52</text>
+
+  <line x1="30" y1="1012" x2="870" y2="1012" stroke="#eee" stroke-width="1"/>
+  <text x="140" y="1025" text-anchor="middle" fill="#333" font-size="9">Ochrona różnicowoprądowa</text>
+  <text x="430" y="1025" text-anchor="middle" fill="#333" font-size="9">RCD typ A, IΔn = 30 mA na każdym obwodzie</text>
+  <text x="750" y="1025" text-anchor="middle" fill="#555" font-size="9">PN-HD 60364-4-41</text>
+
+  <line x1="30" y1="1030" x2="870" y2="1030" stroke="#eee" stroke-width="1"/>
+  <text x="140" y="1043" text-anchor="middle" fill="#333" font-size="9">Uziemienie</text>
+  <text x="430" y="1043" text-anchor="middle" fill="#333" font-size="9">Uziom otokowy / pionowy, Ruz ≤ 5 Ω</text>
+  <text x="750" y="1043" text-anchor="middle" fill="#555" font-size="9">PN-HD 60364-5-54</text>
+
+  <!-- Stopka -->
+  <rect x="10" y="1050" width="880" height="40" fill="#1a3a5c"/>
+  <text x="200" y="1068" fill="#ccc" font-size="8">Opracował: ___________________</text>
+  <text x="200" y="1082" fill="#ccc" font-size="8">Uprawnienia SEP nr: ___________</text>
+  <text x="450" y="1068" text-anchor="middle" fill="#ccc" font-size="8">Data: ___________</text>
+  <text x="450" y="1082" text-anchor="middle" fill="#ccc" font-size="8">Skala: brak</text>
+  <text x="700" y="1068" fill="#ccc" font-size="8">Nr projektu: ___________</text>
+  <text x="700" y="1082" fill="#ccc" font-size="8">Rev.: 01</text>
+
+  <!-- Legenda kolorów przewodów -->
+  <rect x="30" y="860" width="400" height="0" fill="none"/>
+
+</svg>
